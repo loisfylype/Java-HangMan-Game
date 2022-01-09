@@ -21,10 +21,7 @@ public class Hangman {
         while (file.hasNext()) {
             wordsList.add(file.nextLine());
         }
-        
         word = wordsList.get(rand.nextInt(wordsList.size()));
-
-
 
         while (true) {
 
