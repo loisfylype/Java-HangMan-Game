@@ -1,3 +1,4 @@
+package src;
 public class Controller {
     private int WrongCount = 0;
     private int CorrectCount = 0;
